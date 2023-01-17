@@ -1,0 +1,55 @@
+button {
+    position: relative;
+    bottom: 0;
+    border: none;
+    background-color: greenyellow;
+    color: #fff;
+    box-shadow: 5px 10px 2px -2px rgba(3, 109, 247, 0.5);
+
+    width: 200px;
+    height: 50px;
+
+    transition: 0.3s;
+}
+
+button.down {
+    background-color: aqua;
+}
+
+.wrap {
+
+}
+
+.wrap .module {
+    float: left;
+    width: 33.3333%;
+    height: 5px;
+    color: #fff;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.wrap .module.open {
+    height: auto;
+    min-height: 250px;
+}
+
+.bg_r {
+    background-color: red;
+}
+
+.bg_b {
+    background-color: blue;
+}
+
+.bg_g {
+    background-color: greenyellow;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    padding: 400px;
+    font-weight: bold;
+}
